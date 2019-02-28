@@ -8,8 +8,9 @@
 </head>
 <body>
 <!-- Header -->
+<?php require_once "header.php" ?>
+<!-- Nav -->
 <header class="header-container">
-    <!-- Nav -->
     <img src="images/logo3D2.png">
     <span>JOUER</span>
 </header>

@@ -26,6 +26,37 @@
     padding: 0;
     list-style: none;
     font-family: "Animosa-Bold", sans-serif;
+    text-decoration: none;
+}
+
+.nav{
+    position: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100vw;
+}
+
+#nav-logo{
+    width: 70px;
+}
+
+.nav ul li img{
+    width: 70px;
+    height: 70px;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-center{
+    
+}
+
+#nav-end{
+
 }
 
 .header-container{
@@ -38,8 +69,7 @@
 
 .header-container img{
     margin-top: 40vh;
-    width: 30vw;
-    min-width: 600px;
+    width: 780px;
 }
 
 .header-container span{
@@ -175,3 +205,4 @@ article #big{
     justify-content: flex-end;
     align-items: flex-end;
 }
+
