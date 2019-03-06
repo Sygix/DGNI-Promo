@@ -1,0 +1,68 @@
+/*PC*/
+
+h1 {
+	margin:auto;
+	margin-top:56px;
+	margin-bottom:54px;
+	text-align:center;
+	font-family:"colus";
+	font-size:20px;
+}
+
+.texte {
+	width:1024px;
+	background-color:blue;
+	margin:auto;
+	font-family:Animosa, arial, sans-serif;
+	font-size:14px;
+}
+	
+	input {
+		margin-top:56px;
+		width:111px;
+		height:34px;
+		float:right;
+	}
+
+/*Tablette*/
+
+@media and screen (max-width: 768px) {
+
+	h1 {
+		margin:auto;
+		margin-top:56px;
+		margin-bottom:54px;
+		text-align:center;
+		font-family:"Colus Normal";
+		font-size:30px;
+	}
+	
+	.texte {
+		background-color:red;
+		margin:auto;
+		font-size:24px;
+	}
+
+}
+
+/*Mobile*/
+
+@media and screen (max-width: 480px) {
+
+	h1 {
+		margin:auto;
+		margin-top:56px;
+		margin-bottom:54px;
+		text-align:center;
+		font-family:"Colus Normal";
+		font-size:40px;
+	}
+	
+	.texte {
+		background-color:red;
+		margin:auto;
+		font-size:34px;
+	}
+}
+
+

@@ -1,0 +1,167 @@
+body {
+	background-color:blue;
+}
+	
+	.carte {
+		width:1024px;
+		height:800px;
+		background-color:purple;
+		margin:auto;
+	}
+		.titre1 {
+			text-align:center;
+			padding-top:32px;
+			margin-bottom:60px;
+			font-family:colus;
+			font-size:20px;
+		}
+
+			.bloc1 {
+				display:flex;
+				justify-content:space-between;
+
+			}
+
+				.carte1 {
+					height:260px;
+					width:196.8px;
+					background-color:grey;
+				}
+
+				.carte2 {
+					height:260px;
+					width:196.8px;
+					background-color:grey;
+				}
+
+				.carte3 {
+					height:260px;
+					width:196.8px;
+					background-color:grey;
+				}
+
+				.carte4 {
+					height:260px;
+					width:196.8px;
+					background-color:grey;
+				}
+
+				.carte5 {
+					height:260px;
+					width:196.8px;
+					background-color:grey;
+				}
+
+			.bloc2 {
+				display:flex;
+				justify-content:space-between;
+				margin-top:45px;
+				margin-bottom:45px;
+			}
+
+				.carte6 {
+					height:260px;
+					width:196.8px;
+					background-color:grey;
+				}
+
+				.carte7 {
+					height:260px;
+					width:196.8px;
+					background-color:grey;
+				}
+
+				.carte8 {
+					height:260px;
+					width:196.8px;
+					background-color:grey;
+				}
+
+				.carte9 {
+					height:260px;
+					width:196.8px;
+					background-color:grey;
+				}
+
+				.carte10 {
+					height:260px;
+					width:196.8px;
+					background-color:grey;
+				}
+
+				.lien1 {
+					float:right;
+					color:black;
+					font-family: 'Animosa';
+					font-size:14px;
+				}
+
+	.plateau {
+		width:1024px;
+		height:700px;
+		background-color:green;
+		margin:auto;
+		padding-top:10px;
+	}
+
+		.titre2 {
+			font-family: colus;
+			font-size:20px;
+			text-align:center;
+			padding-top:32px;
+			margin-bottom:60px;
+		}
+
+			.blocplateau {
+				height:326px;
+				width:1024px;
+				background-color:orange;
+			}
+
+			.texte1 {
+				margin-top:59px;
+				margin-bottom:36px;
+				font-family: 'Animosa';
+				font-size:14px;
+			}
+
+	.deck {
+		width:1024px;
+		height:640px;
+		background-color:pink;
+		margin:auto;
+		padding-top:10px;
+	}
+
+		.titre3 {
+			font-family:colus;
+			font-size:20px;
+			text-align:center;
+			padding-top:32px;
+			margin-bottom:60px;
+		}
+
+			.blocdeck {
+				
+				height:450px;
+				width:500px;
+				background-color:red;
+			}
+
+			.texte2 {
+				width:452px;
+				height:450px;
+				float:right;
+				margin-top:-450px;
+				font-family: 'Animosa';
+				font-size:14px;
+				background-color: green;
+			}
+
+			.lien2 {
+				float:right;
+				margin-top:128px;
+				color:black;
+				font-family: 'Animosa';
+				font-size:14px;
+			}
