@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Triumph</title>
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="style/main.css">
-</head>
-<body>
 <!-- Header -->
 <?php require_once "header.php" ?>
 <!-- Nav -->
