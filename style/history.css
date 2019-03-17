@@ -1,0 +1,27 @@
+/*PC*/
+
+#page-history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#page-history .arrow-right{
+    border-width: 5px 350px 5px 0;
+}
+
+#page-history .title-font{
+    font-size: 25px;
+}
+
+#page-history .arrow-left{
+    border-width: 5px 0 5px 350px;
+}
+
+#history-texte {
+    width: 784px;
+    text-align: justify;
+    font-size: 15px;
+    padding: 50px 0 100px 0;
+}

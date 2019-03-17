@@ -1,16 +1,20 @@
-<!DOCTYPE html>
-<html lang="fr"
-	<head> 
-		<title>Histoire</title>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="style/style.css" />
-		<meta name="viewport" content="width=device-width">
-		
-	</head>
-	<body> 
-		<div id="contenu">
-			<h1>HISTOIRE</h1>
-			<div class="texte">
+<!-- Header -->
+<?php require_once "header.php" ?>
+<!-- Nav -->
+<div class="header-container-background">
+    <header class="header-container">
+        <img src="images/logo3D2.png"
+    </header>
+</div>
+<!-- Header -->
+		<div id="page-history">
+            <div class="title">
+                <div class="arrow-right"></div>
+                <h1 class="title-font">L'histoire</h1>
+                <div class="arrow-left"></div>
+            </div>
+
+			<div id="history-texte">
 				<p>L’harmonie dominait le monde antique, les peuples prospéraient, les plaines étaient verdoyantes, et le ciel 	régnait d’un bleu azur. Mais l’histoire qui allait bouleverser le cours de toutes ces vies paisibles était de 	mauvais augure.<br/><br/>
 
 					La terre commençait à trembler de manière constante, les domaines champêtres et les montagnes se fracturaient, les récoltes n’étaient plus assez abondantes pour la population.<br/><br/>
@@ -33,10 +37,10 @@
 
 					Incarnez la mythologie Grecque ou choisissez la mythologie Nordique dans le jeu « TRIUMPH », et devenez le stratège qui guidera les dieux vers la victoire sur leurs opposants. For the Glory !<br/><br/>
 				</p>
-
-				<input href="#" type="button" value="Jouer">
-
 			</div>
 		</div>
-	</body> 
+<!-- Footer -->
+<?php require_once "footer.php" ?>
+<!-- Footer -->
+</body>
 </html>

@@ -1,67 +1,83 @@
 <!-- Header -->
 <?php require_once "header.php" ?>
 <!-- Nav -->
-<header class="header-container">
-    <img src="images/logo3D2.png">
-    <span>JOUER</span>
-</header>
+<div class="header-container-background">
+    <header class="header-container">
+        <img src="images/logo3D2.png">
+        <button class="button1 draw meet">JOUER</button>
+    </header>
+</div>
 <!-- Header -->
 <div class="new-player">
-    <h2 class="title">NOUVEAU JOUEUR ?</h2>
-    <img id="new-image" src="images/default.jpg">
-    <p id="new-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolorem fugiat mollitia voluptatem. Accusamus assumenda atque beatae consequuntur ea error eum facilis illo nulla, pariatur porro quisquam quod veritatis vero.
-        <br><a href="#">En savoir plus</a>
+    <div class="title">
+        <div class="arrow-right"></div>
+        <h2 class="title-font">NOUVEAU JOUEUR ?</h2>
+        <div class="arrow-left"></div>
+    </div>
+    <video id="teaser-video" controls preload="auto">
+        <source src="video/anim_vf.mp4">
+    </video>
+    <p id="new-text">Deux mythologies s’affrontent : la mythologie Grecque et la mythologie Nordique. Les dieux de l’Olympe et d’Ásgard mènent un combat déchainant les éléments, l’eau, la terre et l’air, dans le but d’obtenir le monopole sur le monde et d’imposer leurs idéaux sur les peuples.
     </p>
+    <button id="button-en-savoir" class="button1 meet draw">En savoir plus</button>
     <ul>
         <li>
-            <div class="rounded"></div>
+            <div id="two-men" class="rounded"></div>
             <p>2 Joueurs</p>
         </li>
         <li>
-            <div class="rounded"></div>
+            <div id="hourglass" class="rounded"></div>
             <p>~ 20 minutes</p>
         </li>
         <li>
-            <div class="rounded"></div>
+            <div id="years-o" class="rounded"></div>
             <p>À partie de 8 ans</p>
         </li>
     </ul>
 </div>
 <div id="article-container">
     <article id="articles-container">
-        <h2 class="title">Dernières actualités</h2>
+        <div class="title">
+            <div class="arrow-right"></div>
+            <h2 class="title-font">Dernières Actualités</h2>
+            <div class="arrow-left"></div>
+        </div>
 
         <article id="big">
             <div id="big-article-image"></div>
             <div id="big-text">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur beatae corporis cupiditate</h3>
-                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad consequuntur corporis delectus dicta dignissimos fuga hic in minima nostrum nulla odit optio placeat quidem, sint unde velit veniam vitae voluptate.</span>
+                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto culpa cum dignissimos eum excepturi inventore itaque iusto labore, mollitia optio pariatur provident reiciendis rem, saepe, sit tempora totam veniam.</span><span>Adipisci aspernatur blanditiis consectetur consequatur consequuntur dolorem est iste laboriosam nesciunt nostrum quam quasi.</span>
                 </p>
+                <div id="more-container">
+                    <p>0 - Il y a x heures</p>
+                    <span id="big-article-button" class="button1 draw meet">En savoir plus</span>
+                </div>
             </div>
         </article>
 
         <article class="small">
-            <div class="small-image"></div>
+            <div id="carte-serpent" class="small-image"></div>
             <div class="small-text">
-
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ea inventore ipsa iste, magnam maiores, molestiae provident reprehenderit repudiandae.</p>
             </div>
         </article>
         <article class="small">
-            <div class="small-image"></div>
+            <div id="carte-vent" class="small-image"></div>
             <div class="small-text">
-
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ea inventore ipsa iste, magnam maiores, molestiae provident reprehenderit repudiandae.</p>
             </div>
         </article>
         <article class="small">
-            <div class="small-image"></div>
+            <div id="carte-terre" class="small-image"></div>
             <div class="small-text">
-
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ea inventore ipsa iste, magnam maiores, molestiae provident reprehenderit repudiandae.</p>
             </div>
         </article>
-        <a id="see-all" href="#">Tout voir</a>
+        <button id="see-all" class="button1 draw meet">Tout voir</button>
     </article>
 </div>
 <!-- Footer -->
+<?php require_once "footer.php" ?>
 <!-- Footer -->
 </body>
 </html>
