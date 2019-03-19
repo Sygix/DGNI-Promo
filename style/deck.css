@@ -1,0 +1,23 @@
+#page-deck{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#page-deck div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-position: 0 80px;
+    background-size: cover;
+    width: 50vw;
+    height: 80vh;
+}
+
+#deck-left{
+    background: url("../images/terre.png") no-repeat top center;
+}
+
+#deck-right{
+    background: url("../images/serpent.png") no-repeat top center;
+}

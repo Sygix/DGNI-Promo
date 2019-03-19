@@ -1,0 +1,78 @@
+#page-store{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page-store .title{
+    margin: 50px 0 0 0;
+}
+#page-store .title-font{
+    font-size: 25px;
+}
+
+#products{
+    display: flex;
+    flex-direction: column;
+    margin: 35px 0 0 0;
+    border: 4px solid #b98e26;
+}
+
+#products #top{
+    background: url("../images/fondnordique.png") no-repeat center center;
+    background-size: cover;
+    width: 1024px;
+    height: 256px;
+}
+
+#products #top #image-plateau{
+    background: url("../images/plateau.png") no-repeat;
+    background-size: contain;
+    width: 1024px;
+    height: 128px;
+    margin-top: 64px;
+}
+
+#products #bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#products #bottom #left{
+    background: url("../images/vent.png") no-repeat top center;
+    background-size: cover;
+    width: 512px;
+}
+
+#products #bottom #right{
+    background: url("../images/serpent.png") no-repeat top center;
+    background-size: cover;
+    width: 512px;
+    height: 512px;
+}
+
+.overlay-shop{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Colus', sans-serif;
+}
+
+#products #bottom #right:hover .overlay-shop{
+    display: flex;
+}
+
+#products #bottom #left:hover .overlay-shop{
+    display: flex;
+}
+
+#products #top:hover .overlay-shop{
+    display: flex;
+}

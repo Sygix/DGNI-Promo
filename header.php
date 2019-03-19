@@ -5,8 +5,9 @@
     <title>Triumph</title>
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="style/main.css">
-    <link rel="stylesheet" type="text/css" href="style/history.css">
-    <link rel="stylesheet" type="text/css" href="style/cartes.css">
+    <?php
+    echo '<link rel="stylesheet" type="text/css" href="style/'.basename($_SERVER['PHP_SELF'], ".php").'.css">';
+    ?>
     <link rel="icon" href="images/crown.png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
@@ -15,13 +16,13 @@
 <nav class="nav">
     <div id="nav-logo-container"><a href="index.php"><img id="nav-logo" src="images/crown.png"></a></div>
     <ul id="nav-center">
-        <a href="http://89.234.183.130/jeu"><li>
+        <a href="deck.php"><li>
             Le Jeu
         </li></a>
-        <a href="#"><li>
+        <a href="news.php"><li>
             Actualités
         </li></a>
-        <a href="#"><li>
+        <a href="store.php"><li>
             La Boutique
         </li></a>
     </ul>
