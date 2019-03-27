@@ -15,7 +15,7 @@
         <div class="arrow-left"></div>
     </div>
     <video id="teaser-video" controls preload="auto">
-        <source src="video/anim_vf.mp4">
+        <source src="video/anim_vf.webm">
     </video>
     <p id="new-text">Deux mythologies s’affrontent : la mythologie Grecque et la mythologie Nordique. Les dieux de l’Olympe et d’Ásgard mènent un combat déchainant les éléments, l’eau, la terre et l’air, dans le but d’obtenir le monopole sur le monde et d’imposer leurs idéaux sur les peuples.
     </p>
