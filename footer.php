@@ -20,7 +20,7 @@
 				<a href="mentions_legales.pdf">INFORMATIONS LÉGALES / </a>
 				<a href="#">NOUS CONTACTER / </a>
 				<a href="politique_confidentialite.pdf">CHARTE DE CONFIDENTIALITÉ / </a>
-				<a href="#">FLYER</a>
+				<a href="zip-flyers.zip" download="Flyers-Triumph">FLYER</a>
 			</div>
 
 			<div>

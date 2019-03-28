@@ -1,0 +1,116 @@
+#container-last-articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container-last-articles .title{
+    margin: 50px 0 0 0;
+}
+#container-last-articles .title-font{
+    font-size: 25px;
+}
+
+#container-boxs{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    justify-content: space-around;
+    margin: 50px 0 0 0;
+}
+
+#container-boxs div{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+#container-boxs .articletop{
+    border: 4px solid #b98e26;
+    background-color: #1d2331;
+}
+
+#container-boxs p{
+    color: white;
+    font-size: 13px;
+    text-align: justify;
+    margin: 15px;
+}
+
+#container-boxs #bgimg1{
+    background: url("../images/fond_valkyri_nordique.webp")no-repeat top center;
+    background-size: cover;
+    height: 200px;
+}
+
+#container-boxs #bgimg2{
+    background: url("../images/fond_valkyri_nordique.webp")no-repeat top center;
+    background-size: cover;
+    height: 200px;
+}
+
+#container-boxs #bgimg3{
+    background: url("../images/fond_valkyri_nordique.webp")no-repeat top center;
+    background-size: cover;
+    height: 200px;
+}
+
+#container-all-articles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container-all-articles .title{
+    margin: 50px 0 0 0;
+}
+#container-all-articles .title-font{
+    font-size: 25px;
+}
+
+#news-container{
+    width: 1200px;
+}
+
+#news-container article{
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+}
+
+#news-container .long-image{
+    background: url("../images/fond_valkyri_nordique.webp")no-repeat top center;
+    background-size: cover;
+    width: 30%;
+}
+
+#news-container .long-text{
+    width: 70%;
+    background-color: #1d2331;
+    border: 4px solid #b98e26;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#news-container .long-text h3{
+    font-size: 21px;
+}
+
+#news-container .long-text p{
+    margin: 15px 0 15px 0;
+    font-size: 15px;
+    text-align: justify;
+}
+
+#news-container .long-text span{
+    color: #b98e26;
+}
+
+#news-container #see-all{
+    width: 100%;
+    margin-top: 0;
+    font-size: 25px;
+}

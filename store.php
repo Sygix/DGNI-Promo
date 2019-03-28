@@ -16,11 +16,11 @@
     <div id="products">
         <div id="top"><div id="image-plateau"><div class="overlay-shop">Plateau</div></div></div>
         <div id="bottom">
-            <div id="left"><div class="overlay-shop">Deck Nordique</div></div>
-            <div id="right"><div class="overlay-shop">Deck Grecque</div></div>
+            <div id="left"><div class="overlay-shop">Deck Grecque</div></div>
+            <div id="right"><div class="overlay-shop">Deck Nordique</div></div>
         </div>
     </div>
-    <a href="#" id="button-en-savoir" class="button1 meet draw">Finaliser</a>
+    <a href="basket.php" id="button-en-savoir" class="button1 meet draw">Finaliser</a>
 </div>
 <!-- Footer -->
 <?php require_once "footer.php" ?>

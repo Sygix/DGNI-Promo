@@ -4,7 +4,7 @@
 <div class="header-container-background">
     <header class="header-container">
         <img src="images/logo3D2.png">
-        <button class="button1 draw meet">JOUER</button>
+        <a href="../jeu" class="button1 draw meet">JOUER</a>
     </header>
 </div>
 <!-- Header -->
@@ -19,7 +19,7 @@
     </video>
     <p id="new-text">Deux mythologies s’affrontent : la mythologie Grecque et la mythologie Nordique. Les dieux de l’Olympe et d’Ásgard mènent un combat déchainant les éléments, l’eau, la terre et l’air, dans le but d’obtenir le monopole sur le monde et d’imposer leurs idéaux sur les peuples.
     </p>
-    <button id="button-en-savoir" class="button1 meet draw">En savoir plus</button>
+    <a href="histoire.php" id="button-en-savoir" class="button1 meet draw">En savoir plus</a>
     <ul>
         <li>
             <div id="two-men" class="rounded"></div>

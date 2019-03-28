@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Triumph</title>
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <link rel="stylesheet" type="text/css" href="style/main.css"> <!-- /promo/style Pour la prod avec la version anglaise -->
     <?php
     echo '<link rel="stylesheet" type="text/css" href="style/'.basename($_SERVER['PHP_SELF'], ".php").'.css">';
     ?>
@@ -28,10 +28,18 @@
     </ul>
     <ul id="nav-end">
         <li>
-            <a href="#"><div id="money-bag"></div></a>
+            <a href="basket.php"><div id="money-bag"></div></a>
         </li>
         <li>
-            <a href="#"><div id="language-button"></div></a>
+            <div id="language-button-container">
+                <span id="language-button"></span>
+                <div class="dropdown-content">
+                    <?php
+                    echo '<a href="/promo/'.basename($_SERVER['PHP_SELF'], ".php").'">Français</a>';
+                    echo '<a href="/promo/EN/'.basename($_SERVER['PHP_SELF'], ".php").'">English</a>';
+                    ?>
+                </div>
+            </div>
             <!-- Bouton langue -->
         </li>
     </ul>

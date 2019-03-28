@@ -10,7 +10,7 @@
 		<div id="container-cartes">
             <div class="title">
                 <div class="arrow-right"></div>
-                <h1 class="title-font">Les Cartes</h1>
+                <h2 class="title-font">Les Cartes</h2>
                 <div class="arrow-left"></div>
             </div>
 				<div id="card-block1">
@@ -84,7 +84,7 @@
 		<div id="container-plateau">
             <div class="title">
                 <div class="arrow-right"></div>
-                <h1 class="title-font">Le plateau</h1>
+                <h2 class="title-font">Le plateau</h2>
                 <div class="arrow-left"></div>
             </div>
 
@@ -96,11 +96,11 @@
 		<div id="container-deck">
             <div class="title">
                 <div class="arrow-right"></div>
-                <h1 class="title-font">Le Deck</h1>
+                <h2 class="title-font">Le Deck</h2>
                 <div class="arrow-left"></div>
             </div>
             <div id="deck-pres">
-                <img src="images/carte5.png" alt="Carte du deck de dos" />
+                <img src="images/cartes/elementsg.webp" alt="Carte du deck" />
                 <div>
                     <p class="texte2">La mythologie grecque a réuni ses meilleurs éléments pour venir à bout de ses adversaires. Les nymphes des éléments air, terre et eau, des dieux sans égaux aux pouvoirs incommensurables, déchainez toute la puissance grecque sur les nordiques. Découvrez les visuels uniques de ce deck, apprenez à connaître chaque personnage et menez-les vers la victoire !</p>
                     <button class="button-cards">En savoir plus</button>
