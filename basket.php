@@ -14,7 +14,7 @@
             <tr><th>Produit</th><th>Prix</th><th>Quantité</th></tr>
             <tr>
                 <td class="products">
-                    <img class="product-img" src="images/fond_serpent_nordique.webp">
+                    <img class="product-img" src="images/OdinvsZeus_02.jpg">
                     <div>
                         <h3 class="product-name">Deck Nordique</h3>
                         <span class="product-stock">En stock</span>
@@ -25,14 +25,14 @@
                     <p class="product-price">12€</p>
                 </td>
                 <td>
-                    <button class="button-minus">-</button>
+                    <button class="button-minus" onclick="decrementValue()">-</button>
                     <input type="number" value="1" class="product-quantity">
-                    <button class="button-plus">+</button>
+                    <button class="button-plus" onclick="incrementValue()">+</button>
                 </td>
             </tr>
             <tr>
                 <td class="products">
-                    <img class="product-img" src="images/fond_nymph_air.webp">
+                    <img class="product-img" src="images/OdinvsZeus_01.jpg">
                     <div>
                         <h3 class="product-name">Deck Grecque</h3>
                         <span class="product-stock">En stock</span>
@@ -43,9 +43,9 @@
                     <p class="product-price">12€</p>
                 </td>
                 <td>
-                    <button class="button-minus">-</button>
+                    <button class="button-minus" onclick="decrementValue()">-</button>
                     <input type="number" value="1" class="product-quantity">
-                    <button class="button-plus">+</button>
+                    <button class="button-plus" onclick="incrementValue()">+</button>
                 </td>
             </tr>
             <tr>
@@ -65,4 +65,21 @@
 <?php require_once "footer.php" ?>
 <!-- Footer -->
 </body>
+<script>
+    function incrementValue()
+    {
+        var value = parseInt(document.getElementsByClassName('product-quantity').value, 10);
+        value = isNaN(value) ? 0 : value;
+        value++;
+        document.getElementsByClassName('product-quantity').value = value;
+    }
+
+    function decrementValue()
+    {
+        var value = parseInt(document.getElementsByClassName('product-quantity').value, 10);
+        value = isNaN(value) ? 0 : value;
+        value++;
+        document.getElementsByClassName('product-quantity').value = value;
+    }
+</script>
 </html>

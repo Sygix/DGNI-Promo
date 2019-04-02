@@ -16,14 +16,14 @@
 <nav class="nav">
     <div id="nav-logo-container"><a href="index.php"><img id="nav-logo" src="images/crown.png"></a></div>
     <ul id="nav-center">
+        <a href="news.php"><li>
+                Actualités
+            </li></a>
         <a href="deck.php"><li>
             Le Jeu
         </li></a>
-        <a href="news.php"><li>
-            Actualités
-        </li></a>
         <a href="store.php"><li>
-            La Boutique
+            Boutique
         </li></a>
     </ul>
     <ul id="nav-end">

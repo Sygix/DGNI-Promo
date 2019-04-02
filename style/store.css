@@ -40,13 +40,13 @@
 }
 
 #products #bottom #left{
-    background: url("../images/vent.png") no-repeat top center;
+    background: url("../images/OdinvsZeus_01.jpg") no-repeat top center;
     background-size: cover;
     width: 512px;
 }
 
 #products #bottom #right{
-    background: url("../images/serpent.png") no-repeat top center;
+    background: url("../images/OdinvsZeus_02.jpg") no-repeat top center;
     background-size: cover;
     width: 512px;
     height: 512px;

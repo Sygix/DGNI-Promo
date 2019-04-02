@@ -31,7 +31,7 @@
         </li>
         <li>
             <div id="years-o" class="rounded"></div>
-            <p>À partie de 8 ans</p>
+            <p>À partir de 8 ans</p>
         </li>
     </ul>
 </div>
@@ -46,11 +46,13 @@
         <article id="big">
             <div id="big-article-image"></div>
             <div id="big-text">
-                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto culpa cum dignissimos eum excepturi inventore itaque iusto labore, mollitia optio pariatur provident reiciendis rem, saepe, sit tempora totam veniam.</span><span>Adipisci aspernatur blanditiis consectetur consequatur consequuntur dolorem est iste laboriosam nesciunt nostrum quam quasi.</span>
+                <p>L’harmonie dominait le monde antique, les peuples prospéraient, les plaines étaient verdoyantes, et le ciel régnait d’un bleu azur. Mais l’histoire qui allait bouleverser le cours de toutes ces vies paisibles était de mauvais augure.
+
+                    La terre commençait à trembler de manière constante, les domaines champêtres et les montagnes se fracturaient, les récoltes n’étaient plus assez abondantes pour la population.
                 </p>
                 <div id="more-container">
                     <p>0 - Il y a x heures</p>
-                    <span id="big-article-button" class="button1 draw meet">En savoir plus</span>
+                    <a href="histoire.php" id="big-article-button" class="button1 draw meet">En savoir plus</a>
                 </div>
             </div>
         </article>
@@ -58,22 +60,22 @@
         <article class="small">
             <div id="carte-serpent" class="small-image"></div>
             <div class="small-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ea inventore ipsa iste, magnam maiores, molestiae provident reprehenderit repudiandae.</p>
+                <p>Nous avons le plaisir de vous accueillir sur ce nouveau site, visant à donner toutes les informations concernant notre nouveau jeu Triumph...</p>
             </div>
         </article>
         <article class="small">
             <div id="carte-vent" class="small-image"></div>
             <div class="small-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ea inventore ipsa iste, magnam maiores, molestiae provident reprehenderit repudiandae.</p>
+                <p>Pourquoi avoir choisi comme thème la mythologie pour notre jeu ? Tout simplement car nous aimons l’histoire, ainsi que travailler dans un univers épique à la limite du fantastique.</p>
             </div>
         </article>
         <article class="small">
             <div id="carte-terre" class="small-image"></div>
             <div class="small-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ea inventore ipsa iste, magnam maiores, molestiae provident reprehenderit repudiandae.</p>
+                <p>Participez à notre premier jeu concours et tentez de remporter une version physique du jeu Triumph ! Trois boîtes sont à remporter, alors ne tardez pas et rejoignez les combats épiques !</p>
             </div>
         </article>
-        <button id="see-all" class="button1 draw meet">Tout voir</button>
+        <button onclick="location.href='news.php';" href="news.php" id="see-all" class="button1 draw meet">Tout voir</button>
     </article>
 </div>
 <!-- Footer -->
