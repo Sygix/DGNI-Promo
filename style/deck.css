@@ -1,0 +1,49 @@
+#page-deck{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background: url("../images/deck-background.webp") no-repeat top center;
+    background-size: cover;
+    background-position: 0 80px;
+}
+
+#page-deck div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50vw;
+    height: 80vh;
+}
+
+/* VERSION TABLETTE & MOBILE */
+
+@media screen and (max-width: 1199px) {
+
+    #page-deck{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #page-deck div{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-position: top;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #deck-left{
+        background: url("../images/OdinvsZeus_01.jpg") no-repeat top center;
+        width:100%;
+    }
+
+    #deck-right{
+        background: url("../images/OdinvsZeus_02.jpg") no-repeat top center;
+        width: 100%;
+    }
+
+
+
+}

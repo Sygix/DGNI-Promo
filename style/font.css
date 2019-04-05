@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Colus";
+    src: url("font/Colus-regular.eot");
+    src:
+            url("font/Colus-regular.woff") format("woff"),
+            url("font/Colus-regular.woff2") format("woff2"),
+            url("font/Colus-regular.ttf") format("truetype"),
+            url("font/Colus-regular.otf") format("opentype")
+}
+
+@font-face {
+    font-family: "Animosa";
+    src: url("font/Animosa-regular.otf");
+}
+@font-face {
+    font-family: "Animosa-Bold";
+    src: url("font/Animosa-bold.otf");
+}
+@font-face {
+    font-family: "Animosa-Light";
+    src: url("font/Animosa-light.otf");
+}
+@font-face {
+    font-family: "Animosa-ExtraLight";
+    src: url("font/Animosa-extralight.otf");
+}
